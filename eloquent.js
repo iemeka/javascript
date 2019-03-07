@@ -5,7 +5,7 @@ for(let i=0;i<7;i++){
     console.log(ash);
 }
 
-let grid = 5 ,boxTwo = "", box = "";
+let grid = 8 ,boxTwo = "", box = "";
 
 for(j=1;j < grid; j++){
     if (j == 1) box += " ";
