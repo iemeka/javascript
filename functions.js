@@ -1,4 +1,4 @@
-// minimum
+// MINIMUM
 const mathMin = (x, y) => {
     if(x < y){
         return x
@@ -9,7 +9,7 @@ const mathMin = (x, y) => {
 console.log(mathMin(456,455));
 
 
-// recursion
+// RECURSION
 function isEven(num){
     if (num == 1){
         return false;
@@ -21,11 +21,11 @@ function isEven(num){
         return isEven(num - 2);
     }
 }
-console.log(isEven(71));
+console.log(isEven(72));
 
 
-// bean counting
-let str = "tryanndsee",char = "n";
+// BEAN COUNTING
+let str = "tryandsee",char = "d";
 const countBs = function(str, char){
     let Bs = 0, position = 0;
     for (position; position < str.length; position++){

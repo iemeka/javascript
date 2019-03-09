@@ -1,11 +1,12 @@
-//- exercise one
+// LOOPING A TRIANGLE
 let ash = ""
 for(let i=0;i<7;i++){
     ash +="#";
     console.log(ash);
 }
 
-let grid = 8 ,boxTwo = "", box = "";
+// CHESSBOARD
+let grid = 20 ,boxTwo = "", box = "";
 
 for(j=1;j < grid; j++){
     if (j == 1) box += " ";
@@ -35,8 +36,7 @@ for (j=0;j<grid;j++){
     }
 }
 
-
-
+// FizzBuzz
 for(let j=1; j<=100;j++){
     if(j%5==0 && j%3==0){
         console.log("FizzBuzz")
