@@ -6,33 +6,27 @@ for(let i=0;i<7;i++){
 }
 
 // CHESSBOARD
-let grid = 20 ,boxTwo = "", box = "";
+let grid = 8 ,hash = "", space = "";
 
 for(j=1;j < grid; j++){
-    if (j == 1) box += " ";
-
-    if ( j % 2 == 0){
-        box += " "
-    }else{
-        box += "#"
+    if (j == 1) {
+        space += " ";
+        hash += "#";
     }
-}
-
-for(j=1;j < grid; j++){
-    if (j == 1) boxTwo += "#";
-
     if ( j % 2 == 0){
-        boxTwo += "#"
+        space += " ";
+        hash += "#";
     }else{
-        boxTwo +=" "
+        space += "#";
+        hash +=" ";
     }
 }
 
 for (j=0;j<grid;j++){
     if (j%2==0){
-        console.log(box)
+        console.log(space)
     }else{
-        console.log(boxTwo)
+        console.log(hash)
     }
 }
 

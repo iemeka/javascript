@@ -36,4 +36,3 @@ const countBs = function(str, char){
     return Bs;
 }
 console.log(countBs(str, char));
-
