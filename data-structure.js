@@ -26,3 +26,25 @@ const sum = function(rangeArray){
 console.log(sum(rangeArray));
 console.log(rangeArray);
 
+// REVERSING AN ARRAY
+let data = [5,10,15], reversedData = [],index = data.length - 1, inversedData = [];
+
+function reverseArrayInPlace(data){
+    let reduceBy = -1;
+    for (index; 0 <= index ; index+=reduceBy){
+        reversedData.push(data[index]);
+    }
+    return reversedData;
+}
+// INSERSE OF AN ARRAY
+function reverseArray(data){
+    for (let elem of data){
+        inversedData.push(1/elem)
+    }
+    return inversedData
+}
+
+console.log(reverseArrayInPlace(data))
+console.log(reverseArray(data))
+
+//  A LIST
