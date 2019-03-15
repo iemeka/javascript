@@ -32,7 +32,7 @@ const countBs = function(str, char){
         if (str[position] == char){
             Bs++;
         }
-    }
+    
     return Bs;
 }
 console.log(countBs(str, char));
