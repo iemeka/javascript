@@ -48,3 +48,17 @@ console.log(reverseArrayInPlace(data))
 console.log(reverseArray(data))
 
 //  A LIST
+
+
+
+// deep comparison
+let obj1 = "", obj2= ""
+function deepEqual(obj1, obj2){
+    if (typeof(obj1) === typeof(obj2)){
+        return true
+    }
+}
+
+
+console.log(deepEqual(obj1,obj2))
+
