@@ -19,20 +19,21 @@ function isEven(num){
         return "i only take positive numbers"
     }else{
         return isEven(num - 2);
+       
     }
 }
-console.log(isEven(72));
+console.log(isEven(73));
 
 
 // BEAN COUNTING
-let str = "tryandsee",char = "d";
+let str = "i have many spaces in me",char = " ";
 const countBs = function(str, char){
     let Bs = 0, position = 0;
     for (position; position < str.length; position++){
         if (str[position] == char){
             Bs++;
         }
-    
+    }
     return Bs;
 }
-console.log(countBs(str, char));
+console.log(countBs(str, char))
