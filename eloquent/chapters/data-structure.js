@@ -62,3 +62,13 @@ function deepEqual(obj1, obj2){
 
 console.log(deepEqual(obj1,obj2))
 
+// testing stuff - deconstructing
+let world = {
+    person:"man",
+    animal:"dog",
+    thing:"money"
+}
+
+let {person, animal} = world
+
+console.log(person)
